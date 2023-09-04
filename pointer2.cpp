@@ -28,5 +28,8 @@ cout<<"*******************************************"<<endl;
     cout<<sizeof(&ptr)<<endl; // size of pointer
     cout<<&ptr<<endl; // address of pointer
     cout<<&arr[0]<<endl; // address of first element of array
+    ptr=ptr+1;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
     return 0;
 }
