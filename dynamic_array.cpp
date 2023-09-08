@@ -28,5 +28,8 @@ int main()
     // }
     delete [] arr; //delete dynamic array
 
+
+ 
+
     return 0;
 }
